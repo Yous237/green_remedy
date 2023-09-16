@@ -1,0 +1,26 @@
+.home-customers-headings {
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.home-customers-headings h1 {
+    color: var(--heading);
+    font-size: 48px;
+}
+
+.home-customers-headings h3 {
+    color: var(--primary1);
+    font-size: 30px;
+}
+
+.home-customers-reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-customers-reviews {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,158 @@
+.hero {
+    display: flex;
+    background-color: #fafbf5;
+    
+    padding: 0rem 2rem;
+    padding-left: 6rem;
+
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    margin-right: 5rem;
+}
+
+.hero-heading {
+
+}
+
+.hero-heading h1{
+    font-family: var(--font-family);
+    color: var(--heading);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+}
+
+.hero-heading span {
+    color: var(--green);
+}
+
+.hero-subheading {
+    color: var(--primary1);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+}
+
+.hero-cta {
+    margin-top: 4rem;
+}
+
+.hero-cta a {
+    border-radius: 12px;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    font-family: var(--font-family);
+    /* height: 16px; */
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    -webkit-box-sizing: border-box; 
+    
+    box-sizing: border-box;
+}
+
+
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-image img {
+    margin-left: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+
+
+    .hero-content {
+        margin: 0 0 2rem;
+        padding-top: 2rem;
+    }
+
+    .hero-cta {
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        padding-left: 4rem;
+    }
+
+    .hero-heading {
+        padding-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .hero-heading h1{
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 0rem;
+    }
+
+    .hero-subheading p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 1rem;
+    }
+
+    .hero-cta {
+        
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero {
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+
+    .hero-content {
+        padding-top: 0rem;
+    }
+
+    .hero-image img {
+        margin-left: 3rem;
+        width: 100%;
+        height: 70%;
+    }
+
+    .hero-heading {
+        font-size: 20px;
+        line-height: 48px;
+        /* margin-top: 3rem; */
+    }
+
+    .hero-cta {
+        margin-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+}
+
+

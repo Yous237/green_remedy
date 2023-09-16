@@ -1,0 +1,8 @@
+export {default as Navbar} from './navbar/Navbar'
+export {default as Hero} from './hero/Hero'
+export {default as Home_products} from './home_products/Home_products'
+export {default as Popular_products} from './popular_products/Popular_products'
+export {default as Home_about} from './home_about/Home_about'
+export {default as Home_customers } from './home_customers/Home_customers'
+export {default as Newsletter} from './newsletter/Newsletter'
+export {default as Footer} from './footer/Footer'

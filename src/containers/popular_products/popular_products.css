@@ -1,0 +1,26 @@
+.headings {
+    text-align: center;
+}
+
+.heading {
+    color: var(--heading);
+    font-family: var(--font-family);
+}
+
+.subheading {
+    color: var(--primary1);
+    font-family: var(--font-family);
+}
+
+.popular-products-products {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 730px) {
+    .popular-products-products {
+        flex-direction: column;
+    }
+}
+
